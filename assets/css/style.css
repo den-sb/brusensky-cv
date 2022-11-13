@@ -558,14 +558,21 @@ p {
 
 .column {
   position: relative;
-  width: 285px;
+  width: 275px;
 
   padding-right: 15px;
   padding-left: 15px;
 }
 
 .skill {
-  padding: 20px 10px;
+  width: 235px;
+  /* height: 225px; */
+  padding: 20px 15px;
+
+  display: flex;
+  justify-content: center;
+
+  border-radius: 6px;
 
   background: none repeat scroll 0 0 #fff;
   box-shadow: 0 0 20px rgb(9 9 9 / 10%);
@@ -581,6 +588,7 @@ p {
 
 .skill-img {
   height: 28px;
+  margin-right: 10px;
 }
 
 /* Animation */
