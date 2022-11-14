@@ -419,7 +419,6 @@ p {
 /* Button */
 .btn-position {
   display: flex;
-  /* flex-direction: row; */
   gap: 50px;
 
   margin-top: 50px;
@@ -566,7 +565,6 @@ p {
 
 .skill {
   width: 235px;
-  /* height: 225px; */
   padding: 20px 15px;
 
   display: flex;
@@ -661,57 +659,6 @@ p {
 .asd {
   font-size: 14px;
 }
-
-/* __________________________________________________________________________________ */
-
-.position {
-  position: absolute;
-  width: 100%;
-  max-width: 1140px;
-  height: 600px;
-
-  left: 50%;
-  transform: translateX(-50%);
-
-  border: 4px solid black;
-
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  align-items: center;
-
-  margin-top: 60px;
-  padding: 20px;
-}
-
-.box1 {
-  top: 10px;
-
-  width: 400px;
-  height: 400px;
-
-  background: lightcoral;
-}
-
-.box2 {
-  top: 200px;
-
-  width: 600px;
-  height: 400px;
-
-  background: lightgreen;
-}
-
-.box3 {
-  width: 280px;
-  height: 180px;
-  padding: 15px;
-
-  background: white;
-  box-shadow: 0 0 10px -3px #2e3d42;
-}
-
-/* ______________________________________________________________________________ */
 
 /* ------------------------------------------------- */
 /* Contacts */
